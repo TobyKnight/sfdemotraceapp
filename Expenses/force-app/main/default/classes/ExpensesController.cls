@@ -532,7 +532,7 @@ String NewRelicjson=        '['+
         req.setMethod('POST');
         //Content-Type  header is set to let the service know that the sent data is in JSON format
         req.setHeader('Content-Type', 'application/json;charset=UTF-8');
-        req.setHeader('Api-Key', 'f492134b7a3813cb75a9293de4bb89c7FFFFNRAL');
+        req.setHeader('Api-Key', 'API_KEY');
        
         // Set for Newrelic JSON Trace Payload
        // req.setHeader('Data-Format', 'newrelic');
@@ -553,7 +553,7 @@ String NewRelicjson=        '['+
         //Content-Type  header is set to let the service know that the sent data is in JSON format
         reqEventData.setHeader('Content-Type', 'application/json;charset=UTF-8');
       
-        reqEventData.setHeader('Api-Key', 'f492134b7a3813cb75a9293de4bb89c7FFFFNRAL');
+        reqEventData.setHeader('Api-Key', 'API_KEY');
        
         reqEventData.setBody(NewRelicEvent); 
        
@@ -566,7 +566,7 @@ String NewRelicjson=        '['+
        
         reqLogData.setHeader('Content-Type', 'application/json;charset=UTF-8');
       
-        reqLogData.setHeader('Api-Key', 'f492134b7a3813cb75a9293de4bb89c7FFFFNRAL');
+        reqLogData.setHeader('Api-Key', 'API_KEY');
        
         reqLogData.setBody(NewRelicLog); 
        
@@ -582,7 +582,7 @@ String NewRelicjson=        '['+
         reqE2.setEndpoint('https://trace-api.newrelic.com/trace/v1');
         reqE2.setMethod('POST');
         reqE2.setHeader('Content-Type', 'application/json;charset=UTF-8');
-        reqE2.setHeader('Api-Key', 'f492134b7a3813cb75a9293de4bb89c7FFFFNRAL');   
+        reqE2.setHeader('Api-Key', 'API_KEY');   
         reqE2.setHeader('Data-Format', 'zipkin');
         reqE2.setHeader('Data-Format-Version', '2');
       
@@ -593,7 +593,7 @@ String NewRelicjson=        '['+
         reqE3.setEndpoint('https://trace-api.newrelic.com/trace/v1');
         reqE3.setMethod('POST');
         reqE3.setHeader('Content-Type', 'application/json;charset=UTF-8');
-        reqE3.setHeader('Api-Key', 'f492134b7a3813cb75a9293de4bb89c7FFFFNRAL');   
+        reqE3.setHeader('Api-Key', 'API_KEY');   
         reqE3.setHeader('Data-Format', 'zipkin');
         reqE3.setHeader('Data-Format-Version', '2');
       
@@ -604,7 +604,7 @@ String NewRelicjson=        '['+
         reqE4.setEndpoint('https://trace-api.newrelic.com/trace/v1');
         reqE4.setMethod('POST');
         reqE4.setHeader('Content-Type', 'application/json;charset=UTF-8');
-        reqE4.setHeader('Api-Key', 'f492134b7a3813cb75a9293de4bb89c7FFFFNRALL');   
+        reqE4.setHeader('Api-Key', 'API_KEY');   
         reqE4.setHeader('Data-Format', 'zipkin');
         reqE4.setHeader('Data-Format-Version', '2');
       
@@ -616,7 +616,7 @@ String NewRelicjson=        '['+
         reqE5.setEndpoint('https://trace-api.newrelic.com/trace/v1');
         reqE5.setMethod('POST');
         reqE5.setHeader('Content-Type', 'application/json;charset=UTF-8');
-        reqE5.setHeader('Api-Key', 'f492134b7a3813cb75a9293de4bb89c7FFFFNRAL');   
+        reqE5.setHeader('Api-Key', 'API_KEY');   
         reqE5.setHeader('Data-Format', 'zipkin');
         reqE5.setHeader('Data-Format-Version', '2');
       
@@ -628,7 +628,7 @@ String NewRelicjson=        '['+
         reqE6.setEndpoint('https://trace-api.newrelic.com/trace/v1');
         reqE6.setMethod('POST');
         reqE6.setHeader('Content-Type', 'application/json;charset=UTF-8');
-        reqE6.setHeader('Api-Key', 'f492134b7a3813cb75a9293de4bb89c7FFFFNRAL');   
+        reqE6.setHeader('Api-Key', 'API_KEY');   
         reqE6.setHeader('Data-Format', 'zipkin');
         reqE6.setHeader('Data-Format-Version', '2');
       
